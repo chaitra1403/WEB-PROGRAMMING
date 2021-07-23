@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="lab3.css" type="text/css"?>
+<student>
+		<student1>
+			<name>CHAITRA BV</name>
+			<usn>1RV19MCA21</usn>
+			<college>RVCE</college>
+		</student1>
+		<student2>
+			<name>AMITHA MS</name>
+			<usn>50SITMCA01</usn>
+			<college>SIT</college>
+		</student2>
+		<student3>
+			<name>VIDYA RAMESH</name>
+			<usn>16WJSB7053</usn>
+			<college>DON BOSCO</college>
+		</student3>
+		<student4>
+			<name>HARSHITHA</name>
+			<usn>19FJWN1020</usn>
+			<college>PVK</college>
+		</student4>
+	
+</student>

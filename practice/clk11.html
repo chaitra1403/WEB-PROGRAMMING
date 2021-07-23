@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>digitalclock</title>
+	<script>
+	function clk()
+	{
+                      /*          var d=new Date();
+                                var t=d.toLocaleTimeString();
+                                document.getElementById("clock").innerHTML=t;
+                        }
+                        setInterval(function(){dclock()},1000);
+*/
+		var d=new Date();
+		var h=d.toLocaleTimeString();
+		document.getElementById("digital").innerHTML=h;
+	}
+		setInterval(function(){clk()},1000);
+
+	</script>
+</head>
+<body>
+<form>
+	<div id="digital">
+	</div>
+</form>
+</body>
+</html>

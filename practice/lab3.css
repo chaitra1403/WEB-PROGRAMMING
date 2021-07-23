@@ -1,0 +1,38 @@
+student
+{
+	position:relative;
+	background-color: tomato;
+	border: 20px solid orange;
+	padding: 100px;
+	font-family: times new roman;
+	font-size: 20px;
+	font-style: italic;
+}
+
+student1
+{
+	display: block;
+	color:red;
+
+}
+
+student2
+{
+	display: block;
+	color: green;
+}
+
+student3
+{
+	display: block;
+	color: blue;
+}
+student4
+{
+	display: block;
+	color: pink;
+}
+name,usn,college
+{
+	display: block;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+function startTime()
+{
+	var today= new Date();
+	var d=today.getDate();
+	var mo=today.getMonth();
+	var y=today.getFullYear();
+
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();
+	var session="AM";
+	<!--
+	if(h==0)
+	{
+		h=12;
+	}
+	if(h>12)
+	{
+		h=h-12;
+		session="PM";
+	}
+	h=(h<10) ? "0" + h : h;
+ 	m=(h<10) ? "0" + m : h;
+	s=(h<10) ? "0" + s : h;
+-->
+	var dis=d  + "/" + mo + "/" + y
+	var time=h+":"+m+":"+s+"" +session;
+        //document.getElementById("txt1").innerText=dis;
+	document.write(time)
+	document.write(dis)
+	//document.getElementById("txt").innerText=time;
+	SetTimeOut("startTime",'1000');
+	
+}
+
+</script>
+<!--
+<style>
+	body
+	{
+	background-color:blue;
+	}
+</script>
+-->
+</head>
+<body onload="startTime()">
+
+<div id="txt"></div>
+<div id="txt1"></div>
+
+</body>
+<?html>
+
+ 
+
+

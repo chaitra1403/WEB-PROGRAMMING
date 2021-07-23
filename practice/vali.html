@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(usn)
+{
+	var reg=/^[1][A-Z][A-Z][1][6-9][A-Z][A-Z][A-Z][0-9][0-9]$/;
+	if(usn.value.match(reg))
+	{
+		alert("valid");
+	}
+	else
+	{
+		alert("invalid");
+	}
+}
+</script>
+</head>
+<body>
+<form>
+enter usn
+<input type="text" name="usn" placeholder="enter usn">
+<input type="button" name="check" value="check" onclick="validate(usn)">
+</body>
+</html>
+

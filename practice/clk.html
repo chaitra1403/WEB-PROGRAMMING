@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>digitalclock</tital>
+	<script>
+	function clk()
+	{
+		var d=new Date();
+		var h=d.toLocaleTimeString;
+		document.grtElementById("digital").innerHTML=h;
+	}
+		setInterval(function() {clk()},1000);
+
+	</script>
+</head>
+<body>
+<form onload="clk()">
+	<div id="digital">
+	</div>
+</form>
+</body>
+</html>

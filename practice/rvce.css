@@ -1,0 +1,12 @@
+body{
+background: url(job4.jpg);
+background-repeat: no-repeat;
+background-size:1500px 1000px;
+}
+
+h1
+{
+	font-family:monospace;
+	margin:50px;
+	color: black;
+}

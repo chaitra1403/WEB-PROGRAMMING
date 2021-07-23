@@ -1,0 +1,25 @@
+table
+{
+	border:1cm;
+}
+
+th,td
+{
+	text-align: center;
+}
+button:hover
+{
+	background-color:red;
+}
+text:hover
+{
+	background-color:grey;
+}
+body
+{
+	background-color: tomato;
+}
+.btn{
+button-size:fit;
+}
+	

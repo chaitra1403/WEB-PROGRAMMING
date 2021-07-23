@@ -1,0 +1,17 @@
+*{
+margin:0px;
+padding:0px;
+}
+.button{
+font-size:25px;
+margin:2px;
+cursor:pointer;
+border:none;
+}
+.textview{
+width:305px;
+font-size:25px;
+padding:5px;
+border:none;
+background-color:transparent;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>stylesheet</title>
+	<link rel="stylesheet" href="chai1.css">
+	<style>
+			p{color:brown}
+	</style>
+</head>
+
+<body>
+<section>
+	<header>
+		<img src="job4.jpg" width="100px" height="auto" >
+		<h1 style="color:blue;text-align:center;">this is css</h1>
+	
+	</header>
+	<section>
+		<nav>
+			<ul>
+			<li><a href="#">home</a></li>
+			<li><a href="#">contact us</a></li>
+			<li><a href="#">about</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section>
+		<aside>
+			<p>Introduction to GNOME at Your desktop</p>
+			<p id="aa1">Calendar, notifications, keyboard shortcuts, windows and workspaces…</p>
+		</aside>
+	</section>
+	<section>
+		<article>
+				applications in the overview. You can also just start typing to search your applications, files, folders, and the web.
+		</article>
+		<article>
+				On the left of the overview, you will find the dash. The dash shows you your favorite and running applications. Click any icon in the dash to open that application; if the application is already running, it will be highlighted. Clicking its icon will bring up the most recently used window. You can also drag the icon to the overview, or onto any workspace on the right.
+		</article>
+		<article>
+				Right-clicking the icon displays a menu that allows you to pick any window in a running application, or to open a new window. You can also click the icon while holding down Ctrl to open a new window.
+		</article>
+	</section>
+<section>
+<body>
+<footer>
+Ubuntu Desktop Guide
+Your desktop — Calendar, notifications, keyboard shortcuts, windows and workspaces…
+</footer>
+</html>	

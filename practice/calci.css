@@ -1,0 +1,17 @@
+th,td
+{
+	text-align: center;
+}
+[type="button"]
+{
+	width:150px;
+	height:40px;
+	background-color: pink;
+}
+[type="text"]
+{
+	width:450px;
+	height:40px;
+	background-color: powderblue;
+}
+	

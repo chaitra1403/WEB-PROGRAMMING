@@ -1,0 +1,34 @@
+<html>
+	<head><title>Digital clock</title>
+			<style>
+			#clock
+			{
+				color:grey;
+				font-size: 50px;
+				border: dotted;
+				border-color:orange;
+				text-align: center;
+				background-color:#447448;
+				padding: 70px;
+
+			}
+			</style>
+	</head>
+
+	<body bgcolor="tomato">
+		<script>
+			function dclock()
+			{
+				var d=new Date();
+				var t=d.toLocaleTimeString();
+				document.getElementById("clock").innerHTML=t;
+			}
+			setInterval(function(){dclock()},1000);
+		</script>
+
+		<center><h1>Digital clock</h1></center>
+		<marquee><h3>Indian Standard Time</h3></marquee>
+		<div id="clock"></div>
+
+	</body>
+<?html>
